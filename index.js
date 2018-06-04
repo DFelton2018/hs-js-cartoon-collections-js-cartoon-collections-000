@@ -5,7 +5,7 @@ function dwarfRollCall (dwarves) {
   }
   return roleCall.join('');
 }
-
+//
 function summonCaptainPlanet (planeteerCalls){
   var loudCall = [];
   for(var i = 0; i < planeteerCalls.length; i++) {
@@ -13,8 +13,9 @@ function summonCaptainPlanet (planeteerCalls){
   }
   return loudCall;
 }
-
+//
 function longPlaneteerCalls (words) {
+//
   for (var i = 0; i < words.length; i++) {
   if (words[i].length > 4) {
   return true;
@@ -22,6 +23,8 @@ function longPlaneteerCalls (words) {
   return false;
     }
   }
+//
+//
 }
 
 function findTheCheese (foods) {
@@ -33,3 +36,4 @@ function findTheCheese (foods) {
     return 'no cheese!';
   }
 }
+//
