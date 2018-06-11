@@ -10,7 +10,7 @@ function dwarfRollCall (dwarves) {
 function summonCaptainPlanet (planeteerCalls){
   var loudCall = [];
   for(var i = 0; i < planeteerCalls.length; i++) {
-  loudCall.push(planeteerCalls[i].toUpperCase() + "!");
+  loudCall.push(`${planeteerCalls[i].toUpperCase()} !`);
   }
   return loudCall;
 }
