@@ -2,7 +2,7 @@ function dwarfRollCall (dwarves) {
   var whereMyDwarvesAt = [];
   for (var i = 0; i < dwarves.length; i++) {
 
-  whereMyDwarvesAt.push([i+1] + '. ' + dwarves[i] + ' ');
+  whereMyDwarvesAt.push(`${i+1}. ${dwarves[i]} `);
 }
   return whereMyDwarvesAt.join('');
 }
