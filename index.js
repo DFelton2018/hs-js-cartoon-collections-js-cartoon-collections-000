@@ -14,6 +14,8 @@ function summonCaptainPlanet (planeteerCalls) {
   return heartIsNotAnElement;
 }
 
+//
+
 function longPlaneteerCalls (words) {
 
   for (var i = 0; i < words.length; i++) {
